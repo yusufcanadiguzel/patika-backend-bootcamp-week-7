@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqIntro", "LinqIntro\LinqIntro.csproj", "{6139425A-4227-46C0-A77D-EA5F0B279581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqIntro", "LinqIntro\LinqIntro.csproj", "{6139425A-4227-46C0-A77D-EA5F0B279581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patikafy", "Patikafy\Patikafy.csproj", "{FCC881CC-8091-445D-B629-0CD1276356C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6139425A-4227-46C0-A77D-EA5F0B279581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6139425A-4227-46C0-A77D-EA5F0B279581}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6139425A-4227-46C0-A77D-EA5F0B279581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC881CC-8091-445D-B629-0CD1276356C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC881CC-8091-445D-B629-0CD1276356C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC881CC-8091-445D-B629-0CD1276356C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC881CC-8091-445D-B629-0CD1276356C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
