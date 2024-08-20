@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Patikaflix
 {
+    // Dizi sınıfı
     internal class TvSeries
     {
         public TvSeries(string name, int productionYear, string category, int releaseYear, string director, string platform)

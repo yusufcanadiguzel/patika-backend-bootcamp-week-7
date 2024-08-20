@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Patikaflix
 {
+    // Asıl dizi sınıfı ile algoritma arasındaki aracı sınıf.
     // İlk listenizde bulunan komedi dizilerinden yeni bir liste oluşturunuz. Bu listede yalnızca Dizi Adı / Dizi Türü / Yönetmen bilgileri yer alsın
     internal class TvSeriesDto
     {
@@ -27,11 +28,12 @@ namespace Patikaflix
         public string Category { get; set; }
         public string Director { get; set; }
 
-        public static List<TvSeriesDto> CreateDtoList(List<TvSeries> tvSerieses)
+        public static List<TvSeriesDto> CreateSpecificCategoryDtoList(List<TvSeries> tvSerieses, string category)
         {
             foreach (var tvSeries in tvSerieses)
             {
-                TvSeriesesDto.Add(new TvSeriesDto(name: tvSeries.Name, category: tvSeries.Category, director: tvSeries.Director));
+                if(tvSeries.Category == "Komedi")
+                    TvSeriesesDto.Add(new TvSeriesDto(name: tvSeries.Name, category: tvSeries.Category, director: tvSeries.Director));
             }
 
             return TvSeriesesDto;

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Patikaflix
 {
+    // Dizi listesi
     internal class TvSeriesDatas
     {
         public static List<TvSeries> TvSerieses { get; set; }

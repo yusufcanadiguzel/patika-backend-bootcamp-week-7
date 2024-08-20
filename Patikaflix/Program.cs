@@ -7,6 +7,7 @@ bool isFinished = false;
 
 string userResponse;
 
+// Kullanıcıdan cevap alma
 do
 {
     Console.Write("Hoşgeldiniz. Yeni bir dizi eklemek ister misiniz? (e/h): ");
@@ -29,8 +30,10 @@ do
     }
 } while (!isFinished);
 
-ListTvSeries();
+// Komedi dizilerini listeler
+ListComedyTvSeries();
 
+// Kullanıcıdan dizi girişi alma
 void CreateTvSeries()
 {
     string name, category, director, platform;
@@ -65,9 +68,13 @@ void CreateTvSeries()
     Console.WriteLine("Dizi başarıyla eklendi.");
 }
 
-void ListTvSeries()
+void ListComedyTvSeries()
 {
-    var tvSeriesList = TvSeriesDto.CreateDtoList(TvSeriesDatas.TvSerieses);
+    // var tvSerieses = TvSeriesDatas.TvSerieses.Where(tvSeries => tvSeries.Category == "Komedi").ToList();
+    // tvSerieses.foreach(tvSeries => Console.WriteLine(tvSeries));
+    // Yukarıdaki gibi bir yaklaşımda benimsenebilir fakat daha dinamik bir yaklaşımda bulunmayı tercih ettim.
+
+    var tvSeriesList = TvSeriesDto.CreateSpecificCategoryDtoList(TvSeriesDatas.TvSerieses, "Komedi");
 
     foreach (var tvSeries in tvSeriesList)
     {
