@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqIntro", "LinqIntro\Linq
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patikafy", "Patikafy\Patikafy.csproj", "{FCC881CC-8091-445D-B629-0CD1276356C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patikaflix", "Patikaflix\Patikaflix.csproj", "{CB829403-9D51-43B6-93EB-409913F75AEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patikaflix", "Patikaflix\Patikaflix.csproj", "{CB829403-9D51-43B6-93EB-409913F75AEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqJoin", "LinqJoin\LinqJoin.csproj", "{A78DCCA5-9C62-4C97-A613-D9CAF36A4EFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{CB829403-9D51-43B6-93EB-409913F75AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB829403-9D51-43B6-93EB-409913F75AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB829403-9D51-43B6-93EB-409913F75AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78DCCA5-9C62-4C97-A613-D9CAF36A4EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78DCCA5-9C62-4C97-A613-D9CAF36A4EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78DCCA5-9C62-4C97-A613-D9CAF36A4EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78DCCA5-9C62-4C97-A613-D9CAF36A4EFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
